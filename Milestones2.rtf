@@ -1,0 +1,21 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww28600\viewh17500\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 The work is separated between Rasan and Tarsem\
+\
+Tarsem is making: \
+1. Dockerfile file which contains all the commands a user could call on the command line to assemble an image. This file will be situated at docker/php/Dockerfile\
+2. .env file this file will be used at the login time which contains all the confidential information like password and username. This file will also be hidden you need to ls -a command to list it. \
+3. default.conf file will contain all the initial information that we have at starting. Also, the file will be situated in docker/nginx/default. so you need to use cd docker/nginx/default to access it. \
+4. docker-compose.yml file will contain the information about the services like php, nginx, mysql and also the information about the number of ports that we are gonna use in each and every service.\
+\
+Rasan is making: \
+1. index.html: Our defaul page for our server it will pop up if no other page is shown basically gonna show the line like "Hello! welcome to our web server."\
+2. index.php: the scripting language for our index.html page which is gonna show you all the messages.\
+3. connect.php: this file will show the host and will show you form where you can type in the password and username to get the access of our server. if you failed then it is gonna show you this message "Connection failed"\
+\
+The evidence will be update to our git repository. }
